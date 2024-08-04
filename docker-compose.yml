@@ -1,0 +1,6 @@
+﻿services:
+  assistentedeensino:
+    image: assistentedeensino
+    build:
+      context: .
+      dockerfile: Dockerfile
