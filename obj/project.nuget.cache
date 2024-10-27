@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "l1biRMNSDy7U/sry63CscTCfHIAcwkjKkUUQRrcokccB9VUY8PpOMevvSsvmsm+6vh9hbDxqtMMpGaE+vZA/vg==",
+  "dgSpecHash": "4M2sTlhuo8uHMM3zGfloYKUgH++NUz4NcbEx2x22eH5D/LkY1pM/IYU7pWzXhTkK9jwOKhBRJIiD/H5334IUhw==",
   "success": true,
   "projectFilePath": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/AssistenteDeEnsino.csproj",
   "expectedPackageFiles": [
@@ -28,6 +28,8 @@
     "/Users/leonardofarias/.nuget/packages/microsoft.entityframeworkcore.sqlite.core/8.0.7/microsoft.entityframeworkcore.sqlite.core.8.0.7.nupkg.sha512",
     "/Users/leonardofarias/.nuget/packages/microsoft.entityframeworkcore.sqlserver/8.0.7/microsoft.entityframeworkcore.sqlserver.8.0.7.nupkg.sha512",
     "/Users/leonardofarias/.nuget/packages/microsoft.entityframeworkcore.tools/8.0.7/microsoft.entityframeworkcore.tools.8.0.7.nupkg.sha512",
+    "/Users/leonardofarias/.nuget/packages/microsoft.extensions.ai.abstractions/9.0.0-preview.9.24525.1/microsoft.extensions.ai.abstractions.9.0.0-preview.9.24525.1.nupkg.sha512",
+    "/Users/leonardofarias/.nuget/packages/microsoft.extensions.ai.ollama/9.0.0-preview.9.24525.1/microsoft.extensions.ai.ollama.9.0.0-preview.9.24525.1.nupkg.sha512",
     "/Users/leonardofarias/.nuget/packages/microsoft.extensions.caching.abstractions/8.0.0/microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "/Users/leonardofarias/.nuget/packages/microsoft.extensions.caching.memory/8.0.0/microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
     "/Users/leonardofarias/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
@@ -75,6 +77,7 @@
     "/Users/leonardofarias/.nuget/packages/system.io.pipelines/6.0.3/system.io.pipelines.6.0.3.nupkg.sha512",
     "/Users/leonardofarias/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
     "/Users/leonardofarias/.nuget/packages/system.memory.data/1.0.2/system.memory.data.1.0.2.nupkg.sha512",
+    "/Users/leonardofarias/.nuget/packages/system.net.http.json/8.0.1/system.net.http.json.8.0.1.nupkg.sha512",
     "/Users/leonardofarias/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
     "/Users/leonardofarias/.nuget/packages/system.reflection.metadata/6.0.1/system.reflection.metadata.6.0.1.nupkg.sha512",
     "/Users/leonardofarias/.nuget/packages/system.runtime/4.3.0/system.runtime.4.3.0.nupkg.sha512",
@@ -88,7 +91,7 @@
     "/Users/leonardofarias/.nuget/packages/system.text.encoding/4.3.0/system.text.encoding.4.3.0.nupkg.sha512",
     "/Users/leonardofarias/.nuget/packages/system.text.encoding.codepages/6.0.0/system.text.encoding.codepages.6.0.0.nupkg.sha512",
     "/Users/leonardofarias/.nuget/packages/system.text.encodings.web/8.0.0/system.text.encodings.web.8.0.0.nupkg.sha512",
-    "/Users/leonardofarias/.nuget/packages/system.text.json/8.0.4/system.text.json.8.0.4.nupkg.sha512",
+    "/Users/leonardofarias/.nuget/packages/system.text.json/8.0.5/system.text.json.8.0.5.nupkg.sha512",
     "/Users/leonardofarias/.nuget/packages/system.threading.channels/6.0.0/system.threading.channels.6.0.0.nupkg.sha512",
     "/Users/leonardofarias/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "/Users/leonardofarias/.nuget/packages/system.windows.extensions/6.0.0/system.windows.extensions.6.0.0.nupkg.sha512"

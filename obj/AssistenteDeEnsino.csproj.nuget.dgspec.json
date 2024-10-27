@@ -60,6 +60,10 @@
               "target": "Package",
               "version": "[8.0.7, )"
             },
+            "Microsoft.Extensions.AI.Ollama": {
+              "target": "Package",
+              "version": "[9.0.0-preview.9.24525.1, )"
+            },
             "Migrations": {
               "target": "Package",
               "version": "[1.0.1, )"

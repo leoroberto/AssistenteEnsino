@@ -45,4 +45,5 @@ public class GptService: IGptService
             return "Desculpe, não foi possível obter uma resposta no momento. Tente novamente mais tarde.";
         }
     }
+    
 }

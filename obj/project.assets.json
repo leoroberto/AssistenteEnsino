@@ -572,6 +572,43 @@
           "lib/net8.0/_._": {}
         }
       },
+      "Microsoft.Extensions.AI.Abstractions/9.0.0-preview.9.24525.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.AI.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.AI.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.AI.Ollama/9.0.0-preview.9.24525.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.AI.Abstractions": "9.0.0-preview.9.24525.1",
+          "System.Net.Http.Json": "8.0.1",
+          "System.Text.Json": "8.0.5"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.AI.Ollama.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.AI.Ollama.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "Microsoft.Extensions.Caching.Abstractions/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -1436,6 +1473,22 @@
           }
         }
       },
+      "System.Net.Http.Json/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -1686,11 +1739,8 @@
           }
         }
       },
-      "System.Text.Json/8.0.4": {
+      "System.Text.Json/8.0.5": {
         "type": "package",
-        "dependencies": {
-          "System.Text.Encodings.Web": "8.0.0"
-        },
         "compile": {
           "lib/net8.0/System.Text.Json.dll": {
             "related": ".xml"
@@ -2626,6 +2676,52 @@
         "tools/net461/win-x86/ef.exe",
         "tools/netcoreapp2.0/any/ef.dll",
         "tools/netcoreapp2.0/any/ef.runtimeconfig.json"
+      ]
+    },
+    "Microsoft.Extensions.AI.Abstractions/9.0.0-preview.9.24525.1": {
+      "sha512": "b5EntLa7aYjui129KSWQRZpXgUNn6l5G9OYQwVFlDXPiADMcmMEJCveD3BDBDxSbt1jkhIYs0eGuYKM0mXVkFw==",
+      "type": "package",
+      "path": "microsoft.extensions.ai.abstractions/9.0.0-preview.9.24525.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "README.md",
+        "buildTransitive/net462/Microsoft.Extensions.AI.Abstractions.targets",
+        "buildTransitive/net8.0/_._",
+        "lib/net462/Microsoft.Extensions.AI.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.AI.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.AI.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.AI.Abstractions.xml",
+        "lib/net9.0/Microsoft.Extensions.AI.Abstractions.dll",
+        "lib/net9.0/Microsoft.Extensions.AI.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.AI.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.AI.Abstractions.xml",
+        "microsoft.extensions.ai.abstractions.9.0.0-preview.9.24525.1.nupkg.sha512",
+        "microsoft.extensions.ai.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.AI.Ollama/9.0.0-preview.9.24525.1": {
+      "sha512": "S8D108kwoMNdQt0ujYqUH/thdS7xwqXyKXCr0owV8ZbkB+yPQMHdwM7PR04TfGQ0LlEYrpSGAvkgA+oOw6f8kw==",
+      "type": "package",
+      "path": "microsoft.extensions.ai.ollama/9.0.0-preview.9.24525.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "README.md",
+        "buildTransitive/net462/Microsoft.Extensions.AI.Ollama.targets",
+        "buildTransitive/net8.0/_._",
+        "lib/net462/Microsoft.Extensions.AI.Ollama.dll",
+        "lib/net462/Microsoft.Extensions.AI.Ollama.xml",
+        "lib/net8.0/Microsoft.Extensions.AI.Ollama.dll",
+        "lib/net8.0/Microsoft.Extensions.AI.Ollama.xml",
+        "lib/net9.0/Microsoft.Extensions.AI.Ollama.dll",
+        "lib/net9.0/Microsoft.Extensions.AI.Ollama.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.AI.Ollama.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.AI.Ollama.xml",
+        "microsoft.extensions.ai.ollama.9.0.0-preview.9.24525.1.nupkg.sha512",
+        "microsoft.extensions.ai.ollama.nuspec"
       ]
     },
     "Microsoft.Extensions.Caching.Abstractions/8.0.0": {
@@ -3826,6 +3922,36 @@
         "system.memory.data.nuspec"
       ]
     },
+    "System.Net.Http.Json/8.0.1": {
+      "sha512": "F423ZLoJFYg1s6iA+Y7BLflVKjEK5XEA2+Z9CHbxJEUtS3+R5pgnFN499QzriRjYpOu6kS2Crd2YBkOFDHrblg==",
+      "type": "package",
+      "path": "system.net.http.json/8.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Net.Http.Json.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Net.Http.Json.targets",
+        "lib/net462/System.Net.Http.Json.dll",
+        "lib/net462/System.Net.Http.Json.xml",
+        "lib/net6.0/System.Net.Http.Json.dll",
+        "lib/net6.0/System.Net.Http.Json.xml",
+        "lib/net7.0/System.Net.Http.Json.dll",
+        "lib/net7.0/System.Net.Http.Json.xml",
+        "lib/net8.0/System.Net.Http.Json.dll",
+        "lib/net8.0/System.Net.Http.Json.xml",
+        "lib/netstandard2.0/System.Net.Http.Json.dll",
+        "lib/netstandard2.0/System.Net.Http.Json.xml",
+        "system.net.http.json.8.0.1.nupkg.sha512",
+        "system.net.http.json.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "System.Numerics.Vectors/4.5.0": {
       "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
       "type": "package",
@@ -4421,10 +4547,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Text.Json/8.0.4": {
-      "sha512": "bAkhgDJ88XTsqczoxEMliSrpijKZHhbJQldhAmObj/RbrN3sU5dcokuXmWJWsdQAhiMJ9bTayWsL1C9fbbCRhw==",
+    "System.Text.Json/8.0.5": {
+      "sha512": "0f1B50Ss7rqxXiaBJyzUu9bWFOO2/zSlifZ/UNMdiIpDYe4cY4LQQicP4nirK1OS31I43rn062UIJ1Q9bpmHpg==",
       "type": "package",
-      "path": "system.text.json/8.0.4",
+      "path": "system.text.json/8.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4489,7 +4615,7 @@
         "lib/net8.0/System.Text.Json.xml",
         "lib/netstandard2.0/System.Text.Json.dll",
         "lib/netstandard2.0/System.Text.Json.xml",
-        "system.text.json.8.0.4.nupkg.sha512",
+        "system.text.json.8.0.5.nupkg.sha512",
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -4589,6 +4715,7 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.7",
       "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.7",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.7",
+      "Microsoft.Extensions.AI.Ollama >= 9.0.0-preview.9.24525.1",
       "Migrations >= 1.0.1",
       "OpenAI >= 2.0.0-beta.8"
     ]
@@ -4651,6 +4778,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[8.0.7, )"
+          },
+          "Microsoft.Extensions.AI.Ollama": {
+            "target": "Package",
+            "version": "[9.0.0-preview.9.24525.1, )"
           },
           "Migrations": {
             "target": "Package",

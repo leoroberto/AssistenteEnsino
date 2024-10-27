@@ -16,12 +16,18 @@
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
             <PrivateAssets>all</PrivateAssets>
         </PackageReference>
+        <PackageReference Include="Microsoft.Extensions.AI.Ollama" Version="9.0.0-preview.9.24525.1" />
         <PackageReference Include="Migrations" Version="1.0.1" />
         <PackageReference Include="OpenAI" Version="2.0.0-beta.8" />
     </ItemGroup>
 
     <ItemGroup>
       <Compile Remove="Services\Markdown\Markdown.cs" />
+      <Compile Remove="Components\Interview\Interview.cshtml.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Remove="Components\Interview\Interview.cshtml" />
     </ItemGroup>
 
 </Project>

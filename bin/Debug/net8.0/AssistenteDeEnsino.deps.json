@@ -8,10 +8,12 @@
     ".NETCoreApp,Version=v8.0": {
       "AssistenteDeEnsino/1.0.0": {
         "dependencies": {
+          "Markdig": "0.37.0",
           "Microsoft.EntityFrameworkCore": "8.0.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.7",
           "Microsoft.EntityFrameworkCore.Sqlite": "8.0.7",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.7",
+          "Microsoft.Extensions.AI.Ollama": "9.0.0-preview.9.24525.1",
           "Migrations": "1.0.1",
           "OpenAI": "2.0.0-beta.8"
         },
@@ -26,7 +28,7 @@
           "System.Memory.Data": "1.0.2",
           "System.Numerics.Vectors": "4.5.0",
           "System.Text.Encodings.Web": "8.0.0",
-          "System.Text.Json": "8.0.4",
+          "System.Text.Json": "8.0.5",
           "System.Threading.Tasks.Extensions": "4.5.4"
         },
         "runtime": {
@@ -43,7 +45,7 @@
           "Microsoft.Identity.Client.Extensions.Msal": "4.56.0",
           "System.Memory": "4.5.4",
           "System.Security.Cryptography.ProtectedData": "6.0.0",
-          "System.Text.Json": "8.0.4",
+          "System.Text.Json": "8.0.5",
           "System.Threading.Tasks.Extensions": "4.5.4"
         },
         "runtime": {
@@ -66,6 +68,14 @@
           "lib/net45-full/log4net.dll": {
             "assemblyVersion": "1.2.15.0",
             "fileVersion": "1.2.15.0"
+          }
+        }
+      },
+      "Markdig/0.37.0": {
+        "runtime": {
+          "lib/net8.0/Markdig.dll": {
+            "assemblyVersion": "0.37.0.0",
+            "fileVersion": "0.37.0.0"
           }
         }
       },
@@ -457,6 +467,27 @@
           "Microsoft.EntityFrameworkCore.Design": "8.0.7"
         }
       },
+      "Microsoft.Extensions.AI.Abstractions/9.0.0-preview.9.24525.1": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.AI.Abstractions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.52501"
+          }
+        }
+      },
+      "Microsoft.Extensions.AI.Ollama/9.0.0-preview.9.24525.1": {
+        "dependencies": {
+          "Microsoft.Extensions.AI.Abstractions": "9.0.0-preview.9.24525.1",
+          "System.Net.Http.Json": "8.0.1",
+          "System.Text.Json": "8.0.5"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.AI.Ollama.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.52501"
+          }
+        }
+      },
       "Microsoft.Extensions.Caching.Abstractions/8.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "8.0.0"
@@ -485,7 +516,7 @@
       "Microsoft.Extensions.DependencyModel/8.0.1": {
         "dependencies": {
           "System.Text.Encodings.Web": "8.0.0",
-          "System.Text.Json": "8.0.4"
+          "System.Text.Json": "8.0.5"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.DependencyModel.dll": {
@@ -550,7 +581,7 @@
           "Microsoft.IdentityModel.Tokens": "6.35.0",
           "System.Text.Encoding": "4.3.0",
           "System.Text.Encodings.Web": "8.0.0",
-          "System.Text.Json": "8.0.4"
+          "System.Text.Json": "8.0.5"
         },
         "runtime": {
           "lib/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
@@ -807,7 +838,7 @@
       "System.ClientModel/1.1.0-beta.5": {
         "dependencies": {
           "System.Memory.Data": "1.0.2",
-          "System.Text.Json": "8.0.4"
+          "System.Text.Json": "8.0.5"
         },
         "runtime": {
           "lib/net6.0/System.ClientModel.dll": {
@@ -955,12 +986,20 @@
       "System.Memory.Data/1.0.2": {
         "dependencies": {
           "System.Text.Encodings.Web": "8.0.0",
-          "System.Text.Json": "8.0.4"
+          "System.Text.Json": "8.0.5"
         },
         "runtime": {
           "lib/netstandard2.0/System.Memory.Data.dll": {
             "assemblyVersion": "1.0.2.0",
             "fileVersion": "1.0.221.20802"
+          }
+        }
+      },
+      "System.Net.Http.Json/8.0.1": {
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1024.46610"
           }
         }
       },
@@ -1044,9 +1083,12 @@
         }
       },
       "System.Text.Encodings.Web/8.0.0": {},
-      "System.Text.Json/8.0.4": {
-        "dependencies": {
-          "System.Text.Encodings.Web": "8.0.0"
+      "System.Text.Json/8.0.5": {
+        "runtime": {
+          "lib/net8.0/System.Text.Json.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1024.46610"
+          }
         }
       },
       "System.Threading.Channels/6.0.0": {},
@@ -1105,6 +1147,13 @@
       "sha512": "sha512-AEqPZz+v+OikfnR2SqRVdQPnSaLq5y9Iz1CfRQZ9kTKPYCXHG6zYmDHb7wJotICpDLMr/JqokyjiqKAjUKp0ng==",
       "path": "log4net/2.0.5",
       "hashPath": "log4net.2.0.5.nupkg.sha512"
+    },
+    "Markdig/0.37.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-biiu4MTPFjW55qw6v5Aphtj0MjDLJ14x8ndZwkJUHIeqvaSGKeqhLY7S7Vu/S3k7/c9KwhhnaCDP9hdFNUhcNA==",
+      "path": "markdig/0.37.0",
+      "hashPath": "markdig.0.37.0.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
       "type": "package",
@@ -1238,6 +1287,20 @@
       "sha512": "sha512-i85BNsjYGjAkvvga9uALKREHq/hsp/y7QOGuliczDSnUN6YIQXgx989XBg8iSkb5tZJqU/NLev1mU4XmirAvOw==",
       "path": "microsoft.entityframeworkcore.tools/8.0.7",
       "hashPath": "microsoft.entityframeworkcore.tools.8.0.7.nupkg.sha512"
+    },
+    "Microsoft.Extensions.AI.Abstractions/9.0.0-preview.9.24525.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-b5EntLa7aYjui129KSWQRZpXgUNn6l5G9OYQwVFlDXPiADMcmMEJCveD3BDBDxSbt1jkhIYs0eGuYKM0mXVkFw==",
+      "path": "microsoft.extensions.ai.abstractions/9.0.0-preview.9.24525.1",
+      "hashPath": "microsoft.extensions.ai.abstractions.9.0.0-preview.9.24525.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.AI.Ollama/9.0.0-preview.9.24525.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-S8D108kwoMNdQt0ujYqUH/thdS7xwqXyKXCr0owV8ZbkB+yPQMHdwM7PR04TfGQ0LlEYrpSGAvkgA+oOw6f8kw==",
+      "path": "microsoft.extensions.ai.ollama/9.0.0-preview.9.24525.1",
+      "hashPath": "microsoft.extensions.ai.ollama.9.0.0-preview.9.24525.1.nupkg.sha512"
     },
     "Microsoft.Extensions.Caching.Abstractions/8.0.0": {
       "type": "package",
@@ -1568,6 +1631,13 @@
       "path": "system.memory.data/1.0.2",
       "hashPath": "system.memory.data.1.0.2.nupkg.sha512"
     },
+    "System.Net.Http.Json/8.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-F423ZLoJFYg1s6iA+Y7BLflVKjEK5XEA2+Z9CHbxJEUtS3+R5pgnFN499QzriRjYpOu6kS2Crd2YBkOFDHrblg==",
+      "path": "system.net.http.json/8.0.1",
+      "hashPath": "system.net.http.json.8.0.1.nupkg.sha512"
+    },
     "System.Numerics.Vectors/4.5.0": {
       "type": "package",
       "serviceable": true,
@@ -1659,12 +1729,12 @@
       "path": "system.text.encodings.web/8.0.0",
       "hashPath": "system.text.encodings.web.8.0.0.nupkg.sha512"
     },
-    "System.Text.Json/8.0.4": {
+    "System.Text.Json/8.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-bAkhgDJ88XTsqczoxEMliSrpijKZHhbJQldhAmObj/RbrN3sU5dcokuXmWJWsdQAhiMJ9bTayWsL1C9fbbCRhw==",
-      "path": "system.text.json/8.0.4",
-      "hashPath": "system.text.json.8.0.4.nupkg.sha512"
+      "sha512": "sha512-0f1B50Ss7rqxXiaBJyzUu9bWFOO2/zSlifZ/UNMdiIpDYe4cY4LQQicP4nirK1OS31I43rn062UIJ1Q9bpmHpg==",
+      "path": "system.text.json/8.0.5",
+      "hashPath": "system.text.json.8.0.5.nupkg.sha512"
     },
     "System.Threading.Channels/6.0.0": {
       "type": "package",

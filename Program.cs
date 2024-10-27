@@ -3,6 +3,7 @@ using AssistenteDeEnsino.Components.Player.Data;
 using AssistenteDeEnsino.Configurations;
 using AssistenteDeEnsino.Data;
 using AssistenteDeEnsino.Services.Markdown;
+using AssistenteDeEnsino.Services.Ollama;
 using AssistenteDeEnsino.Services.OpenAI;
 using Microsoft.EntityFrameworkCore;
 
@@ -17,6 +18,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 builder.Services.AddScoped<IVideoRepository, VideoRepository>();
 builder.Services.AddScoped<IGptService, GptService>();
+builder.Services.AddScoped<IOllamaService, OllamaService>();
 builder.Services.AddScoped<IMarkdownService, MarkdownService>();
 
 builder.Services.Configure<OpenAIOptions>(builder.Configuration.GetSection("OpenAI"));
