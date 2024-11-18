@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net9.0/scopedcss/projectbundle/AssistenteDeEnsino.bundle.scp.css",
+      "PackagePath": "staticwebassets/AssistenteDeEnsino.lsdoqjwvif.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/wwwroot/app.css",
+      "PackagePath": "staticwebassets/app.css"
+    },
+    {
+      "Id": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/wwwroot/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/wwwroot/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/wwwroot/images/avatar-assistente.png",
+      "PackagePath": "staticwebassets/images/avatar-assistente.png"
+    },
+    {
+      "Id": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/wwwroot/images/avatar-user.png",
+      "PackagePath": "staticwebassets/images/avatar-user.png"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.AssistenteDeEnsino.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.AssistenteDeEnsino.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.build.AssistenteDeEnsino.props",
+      "PackagePath": "build\\AssistenteDeEnsino.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.AssistenteDeEnsino.props",
+      "PackagePath": "buildMultiTargeting\\AssistenteDeEnsino.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.AssistenteDeEnsino.props",
+      "PackagePath": "buildTransitive\\AssistenteDeEnsino.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

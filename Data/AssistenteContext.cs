@@ -19,6 +19,9 @@ public class AppDbContext : DbContext
         modelBuilder.Entity<Video>(entity =>
         {
             entity.HasKey(e => e.Id);
+            entity.Property(e => e.Id)
+                .HasColumnType("CHAR(36)") // Armazena o GUID como string formatada
+                .IsRequired();
             entity.Property(e => e.Nome).IsRequired().HasMaxLength(200);
             entity.Property(e => e.Url).IsRequired();
             entity.Property(e => e.Slug).IsRequired();

@@ -1,0 +1,2031 @@
+{
+  "Version": 1,
+  "Hash": "7Ek/ot8xu7eOHKAx5k/obcJp/7OSl6a7q0O7hROpalA=",
+  "Source": "AssistenteDeEnsino",
+  "BasePath": "_content/AssistenteDeEnsino",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "AssistenteDeEnsino/wwwroot",
+      "Source": "AssistenteDeEnsino",
+      "ContentRoot": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/wwwroot/",
+      "BasePath": "_content/AssistenteDeEnsino",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net9.0/compressed/6f9n8w3t0j-v5b7vqvy3h.gz",
+      "SourceId": "AssistenteDeEnsino",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/AssistenteDeEnsino",
+      "RelativePath": "app#[.{fingerprint=v5b7vqvy3h}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/wwwroot/app.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "rlfpvh37wa",
+      "Integrity": "P24q0ACH1pIGbltw2mOjXo6Bq2/1/wvUN2xNNX6yY8c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/wwwroot/app.css"
+    },
+    {
+      "Identity": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net9.0/compressed/cxllcb46pq-lsdoqjwvif.gz",
+      "SourceId": "AssistenteDeEnsino",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/AssistenteDeEnsino",
+      "RelativePath": "AssistenteDeEnsino#[.{fingerprint=lsdoqjwvif}]?.styles.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net9.0/scopedcss/bundle/AssistenteDeEnsino.styles.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "44dh0f2r7q",
+      "Integrity": "XCcW//IcdYbiRZL+S90dPFEta6XVudj0QEgGGccKVm8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net9.0/scopedcss/bundle/AssistenteDeEnsino.styles.css"
+    },
+    {
+      "Identity": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net9.0/compressed/fvsumrpe9c-lsdoqjwvif.gz",
+      "SourceId": "AssistenteDeEnsino",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/AssistenteDeEnsino",
+      "RelativePath": "AssistenteDeEnsino#[.{fingerprint=lsdoqjwvif}]!.bundle.scp.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net9.0/scopedcss/projectbundle/AssistenteDeEnsino.bundle.scp.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "44dh0f2r7q",
+      "Integrity": "XCcW//IcdYbiRZL+S90dPFEta6XVudj0QEgGGccKVm8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net9.0/scopedcss/projectbundle/AssistenteDeEnsino.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net9.0/compressed/w69m63o0sh-bpk8xqwxhs.gz",
+      "SourceId": "AssistenteDeEnsino",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/AssistenteDeEnsino",
+      "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint=bpk8xqwxhs}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/wwwroot/bootstrap/bootstrap.min.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "wg8z90xh4u",
+      "Integrity": "oA7vaP7X1hcAU8RGnp4MFBWtZmukcKCru5+LrmzIqeg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/wwwroot/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Identity": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net9.0/compressed/xoy04acs11-8inm30yfxf.gz",
+      "SourceId": "AssistenteDeEnsino",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/AssistenteDeEnsino",
+      "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint=8inm30yfxf}]?.map.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/wwwroot/bootstrap/bootstrap.min.css.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "a5iolpc9xz",
+      "Integrity": "3qo3UHtt1eBcfATKJXtIrY+ZdPuBA21DhCoR49jAwbE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/wwwroot/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Identity": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net9.0/scopedcss/bundle/AssistenteDeEnsino.styles.css",
+      "SourceId": "AssistenteDeEnsino",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net9.0/scopedcss/bundle/",
+      "BasePath": "_content/AssistenteDeEnsino",
+      "RelativePath": "AssistenteDeEnsino#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "lsdoqjwvif",
+      "Integrity": "1aHvbVWP0MREosSMp8pfvaL1SPSpdYGPxzqOj+ux4pM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net9.0/scopedcss/bundle/AssistenteDeEnsino.styles.css"
+    },
+    {
+      "Identity": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net9.0/scopedcss/projectbundle/AssistenteDeEnsino.bundle.scp.css",
+      "SourceId": "AssistenteDeEnsino",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net9.0/scopedcss/projectbundle/",
+      "BasePath": "_content/AssistenteDeEnsino",
+      "RelativePath": "AssistenteDeEnsino#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "lsdoqjwvif",
+      "Integrity": "1aHvbVWP0MREosSMp8pfvaL1SPSpdYGPxzqOj+ux4pM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net9.0/scopedcss/projectbundle/AssistenteDeEnsino.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/wwwroot/app.css",
+      "SourceId": "AssistenteDeEnsino",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/wwwroot/",
+      "BasePath": "_content/AssistenteDeEnsino",
+      "RelativePath": "app#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "v5b7vqvy3h",
+      "Integrity": "Q8siP9SiZV8GNOzlkHETapY6R/XrhQbE90aAnlHmHFo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/app.css"
+    },
+    {
+      "Identity": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/wwwroot/bootstrap/bootstrap.min.css",
+      "SourceId": "AssistenteDeEnsino",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/wwwroot/",
+      "BasePath": "_content/AssistenteDeEnsino",
+      "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bpk8xqwxhs",
+      "Integrity": "z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Identity": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/wwwroot/bootstrap/bootstrap.min.css.map",
+      "SourceId": "AssistenteDeEnsino",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/wwwroot/",
+      "BasePath": "_content/AssistenteDeEnsino",
+      "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8inm30yfxf",
+      "Integrity": "gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Identity": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/wwwroot/favicon.png",
+      "SourceId": "AssistenteDeEnsino",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/wwwroot/",
+      "BasePath": "_content/AssistenteDeEnsino",
+      "RelativePath": "favicon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ifv42okdf2",
+      "Integrity": "4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/favicon.png"
+    },
+    {
+      "Identity": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/wwwroot/images/avatar-assistente.png",
+      "SourceId": "AssistenteDeEnsino",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/wwwroot/",
+      "BasePath": "_content/AssistenteDeEnsino",
+      "RelativePath": "images/avatar-assistente#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "m3nb99yrfo",
+      "Integrity": "TmkxL1hFwvONd7Pmy3lURpQWWJFBmtYbY7xqP14XG80=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/avatar-assistente.png"
+    },
+    {
+      "Identity": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/wwwroot/images/avatar-user.png",
+      "SourceId": "AssistenteDeEnsino",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/wwwroot/",
+      "BasePath": "_content/AssistenteDeEnsino",
+      "RelativePath": "images/avatar-user#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3kzpn0itgd",
+      "Integrity": "Q1dg6pfqlQkOAkIZzNaRMKTXclZtJrFVemxXxxy8PVE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/avatar-user.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "app.css",
+      "AssetFile": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net9.0/compressed/6f9n8w3t0j-v5b7vqvy3h.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000679347826"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1471"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P24q0ACH1pIGbltw2mOjXo6Bq2/1/wvUN2xNNX6yY8c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 28 Jul 2024 19:47:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Q8siP9SiZV8GNOzlkHETapY6R/XrhQbE90aAnlHmHFo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q8siP9SiZV8GNOzlkHETapY6R/XrhQbE90aAnlHmHFo="
+        }
+      ]
+    },
+    {
+      "Route": "app.css",
+      "AssetFile": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/wwwroot/app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2540"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Q8siP9SiZV8GNOzlkHETapY6R/XrhQbE90aAnlHmHFo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 28 Jul 2024 19:47:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q8siP9SiZV8GNOzlkHETapY6R/XrhQbE90aAnlHmHFo="
+        }
+      ]
+    },
+    {
+      "Route": "app.css.gz",
+      "AssetFile": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net9.0/compressed/6f9n8w3t0j-v5b7vqvy3h.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1471"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P24q0ACH1pIGbltw2mOjXo6Bq2/1/wvUN2xNNX6yY8c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 28 Jul 2024 19:47:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-P24q0ACH1pIGbltw2mOjXo6Bq2/1/wvUN2xNNX6yY8c="
+        }
+      ]
+    },
+    {
+      "Route": "app.v5b7vqvy3h.css",
+      "AssetFile": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net9.0/compressed/6f9n8w3t0j-v5b7vqvy3h.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000679347826"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1471"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P24q0ACH1pIGbltw2mOjXo6Bq2/1/wvUN2xNNX6yY8c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 28 Jul 2024 19:47:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Q8siP9SiZV8GNOzlkHETapY6R/XrhQbE90aAnlHmHFo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v5b7vqvy3h"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q8siP9SiZV8GNOzlkHETapY6R/XrhQbE90aAnlHmHFo="
+        }
+      ]
+    },
+    {
+      "Route": "app.v5b7vqvy3h.css",
+      "AssetFile": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/wwwroot/app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2540"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Q8siP9SiZV8GNOzlkHETapY6R/XrhQbE90aAnlHmHFo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 28 Jul 2024 19:47:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v5b7vqvy3h"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q8siP9SiZV8GNOzlkHETapY6R/XrhQbE90aAnlHmHFo="
+        }
+      ]
+    },
+    {
+      "Route": "app.v5b7vqvy3h.css.gz",
+      "AssetFile": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net9.0/compressed/6f9n8w3t0j-v5b7vqvy3h.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1471"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P24q0ACH1pIGbltw2mOjXo6Bq2/1/wvUN2xNNX6yY8c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 28 Jul 2024 19:47:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v5b7vqvy3h"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-P24q0ACH1pIGbltw2mOjXo6Bq2/1/wvUN2xNNX6yY8c="
+        }
+      ]
+    },
+    {
+      "Route": "AssistenteDeEnsino.bundle.scp.css",
+      "AssetFile": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net9.0/compressed/fvsumrpe9c-lsdoqjwvif.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000574712644"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1739"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XCcW//IcdYbiRZL+S90dPFEta6XVudj0QEgGGccKVm8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 02:13:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"1aHvbVWP0MREosSMp8pfvaL1SPSpdYGPxzqOj+ux4pM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1aHvbVWP0MREosSMp8pfvaL1SPSpdYGPxzqOj+ux4pM="
+        }
+      ]
+    },
+    {
+      "Route": "AssistenteDeEnsino.bundle.scp.css",
+      "AssetFile": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net9.0/scopedcss/projectbundle/AssistenteDeEnsino.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5716"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1aHvbVWP0MREosSMp8pfvaL1SPSpdYGPxzqOj+ux4pM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 02:13:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1aHvbVWP0MREosSMp8pfvaL1SPSpdYGPxzqOj+ux4pM="
+        }
+      ]
+    },
+    {
+      "Route": "AssistenteDeEnsino.bundle.scp.css.gz",
+      "AssetFile": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net9.0/compressed/fvsumrpe9c-lsdoqjwvif.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1739"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XCcW//IcdYbiRZL+S90dPFEta6XVudj0QEgGGccKVm8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 02:13:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XCcW//IcdYbiRZL+S90dPFEta6XVudj0QEgGGccKVm8="
+        }
+      ]
+    },
+    {
+      "Route": "AssistenteDeEnsino.lsdoqjwvif.bundle.scp.css",
+      "AssetFile": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net9.0/compressed/fvsumrpe9c-lsdoqjwvif.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000574712644"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1739"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XCcW//IcdYbiRZL+S90dPFEta6XVudj0QEgGGccKVm8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 02:13:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"1aHvbVWP0MREosSMp8pfvaL1SPSpdYGPxzqOj+ux4pM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lsdoqjwvif"
+        },
+        {
+          "Name": "label",
+          "Value": "AssistenteDeEnsino.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1aHvbVWP0MREosSMp8pfvaL1SPSpdYGPxzqOj+ux4pM="
+        }
+      ]
+    },
+    {
+      "Route": "AssistenteDeEnsino.lsdoqjwvif.bundle.scp.css",
+      "AssetFile": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net9.0/scopedcss/projectbundle/AssistenteDeEnsino.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5716"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1aHvbVWP0MREosSMp8pfvaL1SPSpdYGPxzqOj+ux4pM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 02:13:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lsdoqjwvif"
+        },
+        {
+          "Name": "label",
+          "Value": "AssistenteDeEnsino.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1aHvbVWP0MREosSMp8pfvaL1SPSpdYGPxzqOj+ux4pM="
+        }
+      ]
+    },
+    {
+      "Route": "AssistenteDeEnsino.lsdoqjwvif.bundle.scp.css.gz",
+      "AssetFile": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net9.0/compressed/fvsumrpe9c-lsdoqjwvif.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1739"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XCcW//IcdYbiRZL+S90dPFEta6XVudj0QEgGGccKVm8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 02:13:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lsdoqjwvif"
+        },
+        {
+          "Name": "label",
+          "Value": "AssistenteDeEnsino.bundle.scp.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XCcW//IcdYbiRZL+S90dPFEta6XVudj0QEgGGccKVm8="
+        }
+      ]
+    },
+    {
+      "Route": "AssistenteDeEnsino.lsdoqjwvif.styles.css",
+      "AssetFile": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net9.0/compressed/cxllcb46pq-lsdoqjwvif.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000574712644"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1739"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XCcW//IcdYbiRZL+S90dPFEta6XVudj0QEgGGccKVm8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 02:13:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"1aHvbVWP0MREosSMp8pfvaL1SPSpdYGPxzqOj+ux4pM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lsdoqjwvif"
+        },
+        {
+          "Name": "label",
+          "Value": "AssistenteDeEnsino.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1aHvbVWP0MREosSMp8pfvaL1SPSpdYGPxzqOj+ux4pM="
+        }
+      ]
+    },
+    {
+      "Route": "AssistenteDeEnsino.lsdoqjwvif.styles.css",
+      "AssetFile": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net9.0/scopedcss/bundle/AssistenteDeEnsino.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5716"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1aHvbVWP0MREosSMp8pfvaL1SPSpdYGPxzqOj+ux4pM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 02:13:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lsdoqjwvif"
+        },
+        {
+          "Name": "label",
+          "Value": "AssistenteDeEnsino.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1aHvbVWP0MREosSMp8pfvaL1SPSpdYGPxzqOj+ux4pM="
+        }
+      ]
+    },
+    {
+      "Route": "AssistenteDeEnsino.lsdoqjwvif.styles.css.gz",
+      "AssetFile": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net9.0/compressed/cxllcb46pq-lsdoqjwvif.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1739"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XCcW//IcdYbiRZL+S90dPFEta6XVudj0QEgGGccKVm8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 02:13:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lsdoqjwvif"
+        },
+        {
+          "Name": "label",
+          "Value": "AssistenteDeEnsino.styles.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XCcW//IcdYbiRZL+S90dPFEta6XVudj0QEgGGccKVm8="
+        }
+      ]
+    },
+    {
+      "Route": "AssistenteDeEnsino.styles.css",
+      "AssetFile": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net9.0/compressed/cxllcb46pq-lsdoqjwvif.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000574712644"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1739"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XCcW//IcdYbiRZL+S90dPFEta6XVudj0QEgGGccKVm8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 02:13:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"1aHvbVWP0MREosSMp8pfvaL1SPSpdYGPxzqOj+ux4pM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1aHvbVWP0MREosSMp8pfvaL1SPSpdYGPxzqOj+ux4pM="
+        }
+      ]
+    },
+    {
+      "Route": "AssistenteDeEnsino.styles.css",
+      "AssetFile": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net9.0/scopedcss/bundle/AssistenteDeEnsino.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5716"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1aHvbVWP0MREosSMp8pfvaL1SPSpdYGPxzqOj+ux4pM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 02:13:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1aHvbVWP0MREosSMp8pfvaL1SPSpdYGPxzqOj+ux4pM="
+        }
+      ]
+    },
+    {
+      "Route": "AssistenteDeEnsino.styles.css.gz",
+      "AssetFile": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net9.0/compressed/cxllcb46pq-lsdoqjwvif.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1739"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XCcW//IcdYbiRZL+S90dPFEta6XVudj0QEgGGccKVm8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 02:13:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XCcW//IcdYbiRZL+S90dPFEta6XVudj0QEgGGccKVm8="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.bpk8xqwxhs.css",
+      "AssetFile": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net9.0/compressed/w69m63o0sh-bpk8xqwxhs.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000041925205"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23851"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oA7vaP7X1hcAU8RGnp4MFBWtZmukcKCru5+LrmzIqeg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 28 Jul 2024 19:47:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bpk8xqwxhs"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.bpk8xqwxhs.css",
+      "AssetFile": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/wwwroot/bootstrap/bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 28 Jul 2024 19:47:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bpk8xqwxhs"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.bpk8xqwxhs.css.gz",
+      "AssetFile": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net9.0/compressed/w69m63o0sh-bpk8xqwxhs.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23851"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oA7vaP7X1hcAU8RGnp4MFBWtZmukcKCru5+LrmzIqeg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 28 Jul 2024 19:47:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bpk8xqwxhs"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oA7vaP7X1hcAU8RGnp4MFBWtZmukcKCru5+LrmzIqeg="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css",
+      "AssetFile": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net9.0/compressed/w69m63o0sh-bpk8xqwxhs.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000041925205"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23851"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oA7vaP7X1hcAU8RGnp4MFBWtZmukcKCru5+LrmzIqeg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 28 Jul 2024 19:47:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css",
+      "AssetFile": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/wwwroot/bootstrap/bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 28 Jul 2024 19:47:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map",
+      "AssetFile": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net9.0/compressed/xoy04acs11-8inm30yfxf.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000013397104"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74642"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3qo3UHtt1eBcfATKJXtIrY+ZdPuBA21DhCoR49jAwbE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 28 Jul 2024 19:47:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map",
+      "AssetFile": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/wwwroot/bootstrap/bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 28 Jul 2024 19:47:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map.gz",
+      "AssetFile": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net9.0/compressed/xoy04acs11-8inm30yfxf.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74642"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3qo3UHtt1eBcfATKJXtIrY+ZdPuBA21DhCoR49jAwbE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 28 Jul 2024 19:47:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css.map.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3qo3UHtt1eBcfATKJXtIrY+ZdPuBA21DhCoR49jAwbE="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.gz",
+      "AssetFile": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net9.0/compressed/w69m63o0sh-bpk8xqwxhs.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23851"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oA7vaP7X1hcAU8RGnp4MFBWtZmukcKCru5+LrmzIqeg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 28 Jul 2024 19:47:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oA7vaP7X1hcAU8RGnp4MFBWtZmukcKCru5+LrmzIqeg="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.map",
+      "AssetFile": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net9.0/compressed/xoy04acs11-8inm30yfxf.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000013397104"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74642"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3qo3UHtt1eBcfATKJXtIrY+ZdPuBA21DhCoR49jAwbE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 28 Jul 2024 19:47:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.map",
+      "AssetFile": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/wwwroot/bootstrap/bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 28 Jul 2024 19:47:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.map.gz",
+      "AssetFile": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net9.0/compressed/xoy04acs11-8inm30yfxf.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74642"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3qo3UHtt1eBcfATKJXtIrY+ZdPuBA21DhCoR49jAwbE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 28 Jul 2024 19:47:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3qo3UHtt1eBcfATKJXtIrY+ZdPuBA21DhCoR49jAwbE="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ifv42okdf2.png",
+      "AssetFile": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/wwwroot/favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 28 Jul 2024 19:47:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ifv42okdf2"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.png",
+      "AssetFile": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/wwwroot/favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 28 Jul 2024 19:47:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "images/avatar-assistente.m3nb99yrfo.png",
+      "AssetFile": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/wwwroot/images/avatar-assistente.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "349026"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TmkxL1hFwvONd7Pmy3lURpQWWJFBmtYbY7xqP14XG80=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 Aug 2024 01:01:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m3nb99yrfo"
+        },
+        {
+          "Name": "label",
+          "Value": "images/avatar-assistente.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TmkxL1hFwvONd7Pmy3lURpQWWJFBmtYbY7xqP14XG80="
+        }
+      ]
+    },
+    {
+      "Route": "images/avatar-assistente.png",
+      "AssetFile": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/wwwroot/images/avatar-assistente.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "349026"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TmkxL1hFwvONd7Pmy3lURpQWWJFBmtYbY7xqP14XG80=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 Aug 2024 01:01:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TmkxL1hFwvONd7Pmy3lURpQWWJFBmtYbY7xqP14XG80="
+        }
+      ]
+    },
+    {
+      "Route": "images/avatar-user.3kzpn0itgd.png",
+      "AssetFile": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/wwwroot/images/avatar-user.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66048"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Q1dg6pfqlQkOAkIZzNaRMKTXclZtJrFVemxXxxy8PVE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 Aug 2024 01:01:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3kzpn0itgd"
+        },
+        {
+          "Name": "label",
+          "Value": "images/avatar-user.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q1dg6pfqlQkOAkIZzNaRMKTXclZtJrFVemxXxxy8PVE="
+        }
+      ]
+    },
+    {
+      "Route": "images/avatar-user.png",
+      "AssetFile": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/wwwroot/images/avatar-user.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66048"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Q1dg6pfqlQkOAkIZzNaRMKTXclZtJrFVemxXxxy8PVE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 Aug 2024 01:01:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q1dg6pfqlQkOAkIZzNaRMKTXclZtJrFVemxXxxy8PVE="
+        }
+      ]
+    }
+  ]
+}
