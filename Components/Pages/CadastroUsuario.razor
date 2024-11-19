@@ -1,0 +1,55 @@
+@page "/CadastroUsuario"
+@rendermode InteractiveServer
+
+@using AssistenteDeEnsino.Components.Interview.Entities
+@using AssistenteDeEnsino.Data
+@inject AppDbContext DbContext
+
+<style>
+    .message-user {
+        max-width: 70%;
+    }
+
+    .message-ai {
+        max-width: 70%;
+    }
+
+    .container-custom {
+        height: 94vh !important;
+    }
+
+    .chat-history {
+        height: 70vh;
+        overflow-y: auto;
+    }
+</style>
+
+<h3>CadastroUsuario</h3>
+
+<div class="container-fluid container-custom">
+    <div class="row h-100">
+        <p>@message</p>
+        <div class="col-lg-4 col-md-12 d-flex flex-column">
+            <input class="form-control mb-2" placeholder="Digite o nome completo do usuário" @bind="fullName">
+            <button class="btn btn-primary w-100" type="button" @onclick="CadastrarUsuario"> Cadastrar </button>
+        </div>
+    </div>
+</div>
+
+@code {
+    private string fullName;
+    private string message;
+    
+    private async Task CadastrarUsuario()
+    {
+        var user = new User()
+        {
+            Nome = fullName
+        };
+
+        await DbContext.Users.AddAsync(user);
+        await DbContext.SaveChangesAsync();
+
+        message = "Usuário cadastrado com sucesso";
+    }
+}

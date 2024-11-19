@@ -1,3 +1,4 @@
+using AssistenteDeEnsino.Components.Interview.Entities;
 using AssistenteDeEnsino.Components.Player;
 using Microsoft.EntityFrameworkCore;
 
@@ -10,6 +11,7 @@ public class AppDbContext : DbContext
     }
 
     public DbSet<Video> Videos { get; set; }
+    public DbSet<User> Users { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -26,6 +28,15 @@ public class AppDbContext : DbContext
             entity.Property(e => e.Url).IsRequired();
             entity.Property(e => e.Slug).IsRequired();
             entity.Property(e => e.Transcript).IsRequired();
+        });
+
+        modelBuilder.Entity<User>(entity =>
+        {
+            entity.HasKey(e => e.Id);
+            // Configurar o Id como auto incremento
+            entity.Property(e => e.Id)
+                .ValueGeneratedOnAdd(); // Informa ao EF Core que o valor será gerado pelo banco de dados
+            entity.Property(e => e.Nome).IsRequired().HasMaxLength(200);
         });
     }
 }

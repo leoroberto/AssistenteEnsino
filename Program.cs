@@ -1,4 +1,5 @@
 using AssistenteDeEnsino.Components;
+using AssistenteDeEnsino.Components.Interview.Data;
 using AssistenteDeEnsino.Components.Player.Data;
 using AssistenteDeEnsino.Configurations;
 using AssistenteDeEnsino.Data;
@@ -20,6 +21,7 @@ builder.Services.AddScoped<IVideoRepository, VideoRepository>();
 builder.Services.AddScoped<IGptService, GptService>();
 builder.Services.AddScoped<IOllamaService, OllamaService>();
 builder.Services.AddScoped<IMarkdownService, MarkdownService>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
 
 builder.Services.Configure<OpenAIOptions>(builder.Configuration.GetSection("OpenAI"));
 
