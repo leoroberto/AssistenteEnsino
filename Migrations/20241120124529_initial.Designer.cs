@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AssistenteDeEnsino.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20241119011943_inclusaoEntidadeUser")]
-    partial class inclusaoEntidadeUser
+    [Migration("20241120124529_initial")]
+    partial class initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -35,7 +35,7 @@ namespace AssistenteDeEnsino.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("User");
+                    b.ToTable("Users");
                 });
 
             modelBuilder.Entity("AssistenteDeEnsino.Components.Player.Video", b =>

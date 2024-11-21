@@ -32,7 +32,7 @@ namespace AssistenteDeEnsino.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("User");
+                    b.ToTable("Users");
                 });
 
             modelBuilder.Entity("AssistenteDeEnsino.Components.Player.Video", b =>

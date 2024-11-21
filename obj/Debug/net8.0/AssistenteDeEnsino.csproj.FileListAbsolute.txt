@@ -1,6 +1,7 @@
 /Users/leonardofarias/RiderProjects/AssistenteDeEnsino/bin/Debug/net8.0/appsettings.Development.json
 /Users/leonardofarias/RiderProjects/AssistenteDeEnsino/bin/Debug/net8.0/appsettings.json
 /Users/leonardofarias/RiderProjects/AssistenteDeEnsino/bin/Debug/net8.0/AssistenteDeEnsino.staticwebassets.runtime.json
+/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/bin/Debug/net8.0/AssistenteDeEnsino.staticwebassets.endpoints.json
 /Users/leonardofarias/RiderProjects/AssistenteDeEnsino/bin/Debug/net8.0/AssistenteDeEnsino
 /Users/leonardofarias/RiderProjects/AssistenteDeEnsino/bin/Debug/net8.0/AssistenteDeEnsino.deps.json
 /Users/leonardofarias/RiderProjects/AssistenteDeEnsino/bin/Debug/net8.0/AssistenteDeEnsino.runtimeconfig.json
@@ -168,7 +169,9 @@
 /Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net8.0/scopedcss/projectbundle/AssistenteDeEnsino.bundle.scp.css
 /Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net8.0/staticwebassets.build.json
 /Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net8.0/staticwebassets.development.json
+/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net8.0/staticwebassets.build.endpoints.json
 /Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net8.0/staticwebassets/msbuild.AssistenteDeEnsino.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net8.0/staticwebassets/msbuild.AssistenteDeEnsino.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 /Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net8.0/staticwebassets/msbuild.build.AssistenteDeEnsino.props
 /Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.AssistenteDeEnsino.props
 /Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.AssistenteDeEnsino.props

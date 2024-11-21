@@ -1,3 +1,4 @@
+using AssistenteDeEnsino;
 using AssistenteDeEnsino.Components;
 using AssistenteDeEnsino.Components.Interview.Data;
 using AssistenteDeEnsino.Components.Player.Data;
@@ -17,6 +18,7 @@ builder.Services.AddRazorComponents()
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseMySQL(builder.Configuration.GetConnectionString("MySQL")));
 
+builder.Services.AddSingleton<ParameterService>();
 builder.Services.AddScoped<IVideoRepository, VideoRepository>();
 builder.Services.AddScoped<IGptService, GptService>();
 builder.Services.AddScoped<IOllamaService, OllamaService>();
@@ -43,6 +45,6 @@ app.UseAntiforgery();
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();
 
-app.UseDbMigrationHelper();
+//app.UseDbMigrationHelper();
 
 app.Run();

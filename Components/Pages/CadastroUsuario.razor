@@ -4,6 +4,8 @@
 @using AssistenteDeEnsino.Components.Interview.Entities
 @using AssistenteDeEnsino.Data
 @inject AppDbContext DbContext
+@inject ParameterService ParameterService
+@inject NavigationManager Navigation
 
 <style>
     .message-user {
@@ -50,6 +52,11 @@
         await DbContext.Users.AddAsync(user);
         await DbContext.SaveChangesAsync();
 
+        ParameterService.SetParameter("user", user);
+        Navigation.NavigateTo("/interview");
+        
         message = "Usuário cadastrado com sucesso";
+        
+        
     }
 }

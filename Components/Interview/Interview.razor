@@ -1,11 +1,13 @@
 @page "/interview"
 @rendermode InteractiveServer
 
+@using AssistenteDeEnsino.Components.Interview.Entities
 @using AssistenteDeEnsino.Services.Markdown
 @using AssistenteDeEnsino.Services.Ollama
 @using AssistenteDeEnsino.Services.OpenAI
 @using Microsoft.AspNetCore.Components.Web
 
+@inject ParameterService ParameterService
 @inject IMarkdownService _markdownService
 @inject IOllamaService _OllamaService
 
@@ -63,7 +65,6 @@
                     {
                     <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
                     <span>Processando...</span>
-
                     }
                     else
                     {
@@ -84,13 +85,24 @@
     private List<Message> Messages { get; set; } = new List<Message>();
     private bool isLoading = true;
     private bool isProcessingMessage = false;
+    private User user;
+    private string textoBoasVindas;
+    private bool isWelcomeMessageSent = false; 
     
     protected override async Task OnParametersSetAsync()
     {
         // video = await _videoRepository.GetBySlugAsync(Slug);
-        isLoading = false;
+        
+        user = ParameterService.GetParameter<User>("user");
+        
+        if (!isWelcomeMessageSent)
+        {
+            Messages.Add(new Message { Text = $"Olá {user.Nome}, Seja bem-vindo! Sou o entrevistador para a vaga " +
+                                              $"XPTO, vamos começar?!", IsUser = false });
+            isWelcomeMessageSent = true;
+        }
 
-        Messages.Add(new Message { Text = "Olá, Seja bem vindo! Sou o entrevistador para a vaga XPTO, vamo começar?!", IsUser = false });
+        isLoading = false;
     }
     
     private async Task SendMessage()
@@ -102,18 +114,12 @@
 
             Messages.Add(new Message { Text = UserMessage, IsUser = true });
 
-            var resposta = await _OllamaService.ProcessarPergunta(UserMessage);
+            var resposta = await _OllamaService.ProcessarPergunta(Messages);
             Messages.Add(new Message { Text = resposta, IsUser = false });
 
             UserMessage = string.Empty;
             isProcessingMessage = false;
             StateHasChanged();
         }
-    }
-    
-    private class Message
-    {
-        public string Text { get; set; }
-        public bool IsUser { get; set; }
     }
 }
