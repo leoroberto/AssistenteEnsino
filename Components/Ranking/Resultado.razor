@@ -1,0 +1,51 @@
+@page "/resultado"
+@using AssistenteDeEnsino.Components.Interview.Entities
+@using AssistenteDeEnsino.Data
+@using Microsoft.EntityFrameworkCore
+@rendermode InteractiveServer
+
+@inject AppDbContext DbContext
+
+<h3>Lista de Usuários e Notas</h3>
+
+@if (users == null)
+{
+    <p>Carregando...</p>
+}
+else if (!users.Any())
+{
+    <p>Nenhum usuário encontrado.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Nota</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var user in users)
+        {
+            <tr>
+                <td>@user.Nome</td>
+                <td>@(user.Nota?.Valor.ToString() ?? "Sem nota")</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<User> users;
+
+    protected override async Task OnParametersSetAsync()
+    {
+        users = await DbContext.Users
+            .Include(u => u.Nota)
+            .OrderByDescending(u => u.Nota != null ? u.Nota.Valor : 0) // Ordena pela nota, valores nulos ficam como 0
+            .ToListAsync();
+    }
+
+}

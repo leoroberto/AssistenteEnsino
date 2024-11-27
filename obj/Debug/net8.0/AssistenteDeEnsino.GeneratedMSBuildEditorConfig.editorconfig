@@ -1,11 +1,19 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AssistenteDeEnsino
 build_property.RootNamespace = AssistenteDeEnsino
@@ -54,6 +62,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/Components/Player/Player.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QbGF5ZXIvUGxheWVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/Components/Ranking/Resultado.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9SYW5raW5nL1Jlc3VsdGFkby5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/Components/Routes.razor]

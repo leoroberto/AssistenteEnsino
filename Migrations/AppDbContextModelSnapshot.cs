@@ -19,6 +19,26 @@ namespace AssistenteDeEnsino.Migrations
                 .HasAnnotation("ProductVersion", "8.0.11")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
+            modelBuilder.Entity("AssistenteDeEnsino.Components.Interview.Entities.Nota", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Valor")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId")
+                        .IsUnique();
+
+                    b.ToTable("Notas");
+                });
+
             modelBuilder.Entity("AssistenteDeEnsino.Components.Interview.Entities.User", b =>
                 {
                     b.Property<int>("Id")
@@ -61,6 +81,23 @@ namespace AssistenteDeEnsino.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Videos");
+                });
+
+            modelBuilder.Entity("AssistenteDeEnsino.Components.Interview.Entities.Nota", b =>
+                {
+                    b.HasOne("AssistenteDeEnsino.Components.Interview.Entities.User", "User")
+                        .WithOne("Nota")
+                        .HasForeignKey("AssistenteDeEnsino.Components.Interview.Entities.Nota", "UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("AssistenteDeEnsino.Components.Interview.Entities.User", b =>
+                {
+                    b.Navigation("Nota")
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

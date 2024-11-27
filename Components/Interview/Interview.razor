@@ -2,14 +2,15 @@
 @rendermode InteractiveServer
 
 @using AssistenteDeEnsino.Components.Interview.Entities
+@using AssistenteDeEnsino.Data
 @using AssistenteDeEnsino.Services.Markdown
 @using AssistenteDeEnsino.Services.Ollama
-@using AssistenteDeEnsino.Services.OpenAI
-@using Microsoft.AspNetCore.Components.Web
 
 @inject ParameterService ParameterService
 @inject IMarkdownService _markdownService
 @inject IOllamaService _OllamaService
+@inject AppDbContext DbContext
+@inject NavigationManager Navigation
 
 <style>
     .message-user {
@@ -37,7 +38,7 @@
             <div class="chat-history flex-grow-1 mb-3" style="overflow-y: auto; border: 1px solid #ccc; padding: 10px;">
                 @foreach (var message in Messages)
                 {
-                if (message.IsUser)
+                if (message.Role == MessageType.User)
                 {
                 <div class="d-flex justify-content-end mb-2">
                     <div class="message-user bg-primary text-white p-2 rounded">
@@ -83,6 +84,7 @@
     // private Video video;
     private string UserMessage { get; set; }
     private List<Message> Messages { get; set; } = new List<Message>();
+    private List<Message> MessagesIA { get; set; } = new List<Message>();
     private bool isLoading = true;
     private bool isProcessingMessage = false;
     private User user;
@@ -98,7 +100,9 @@
         if (!isWelcomeMessageSent)
         {
             Messages.Add(new Message { Text = $"Olá {user.Nome}, Seja bem-vindo! Sou o entrevistador para a vaga " +
-                                              $"XPTO, vamos começar?!", IsUser = false });
+                                              $"Agile Coach, vamos começar?!", Role = MessageType.Assistant});
+            MessagesIA.Add(new Message {Text = "Quero que atue como um recrutador de uma grande empresa de tecnologia como a BRQ Digital Solutions e sua função é me entrevistar para uma vaga específica descrita abaixo.\n\nInstruções para a entrevista: Faça as perguntas que um recrutador faria. No total faça 3 perguntas. A entrevista deve ser realizada em português. Faça as perguntas uma a uma, ou seja, faça a primeira e aguarde minha resposta (não precisa informar que está aguardando a resposta), faça a segunda e assim sucessivamente até a última. Em hipótese alguma forneça comentário informando que serão calculadas, avaliadas notas ou que as respostas tem algum impacto na avaliação. Em hipótese alguma comente sobre as respostas e sobre o resultado final. Ao final da entrevista, quero que me de uma nota de 0 a 100 de acordo com as minhas respostas (seja rigoroso nessa avaliação como um recrutador seria), informe apenas a nota precedida da palavra 'ResultadoFinalOK:'. Não faça nenhum comentário, apenas informe a nota.\n\nDescrição da vaga:\n\nO que procuramos?\nBuscamos um #fera com espírito empreendedor e que sabe que é o verdadeiro protagonista do seu sucesso! Queremos em nosso time pessoas motivadas por desafios, constante evolução e, claro, que são apaixonadas por tecnologia e transformação!\n\nResponsabilidades:\n\tColaborar na identificação e padronização de métricas alinhadas aos objetivos de negócios.\n\tDesenvolver KPIs para monitorar a eficiência e qualidade das entregas.\n\tConfigurar e integrar ferramentas para facilitar a análise e visualização de dados.\n\tAutomatizar a captura de métricas e criar dashboards personalizados.\n\tIdentificar padrões e tendências nos dados coletados.\n\tRealizar benchmarking entre equipes e propor ações corretivas.\n\tUtilizar métricas nas retrospectivas para promover melhorias contínuas.\n\tApoiar na criação de OKRs baseados em métricas relevantes.\n\tTreinar equipes sobre métricas e promover uma cultura de dados.\n\tRevisar as métricas periodicamente para garantir sua relevância.\n\tMonitorar métricas de dependências entre squads.\n\tFacilitar workshops para alinhar estratégias e promover sinergia.\n\nQualificações:\n\tExperiência em definição e análise de métricas em ambientes ágeis.\n\tConhecimento de ferramentas como Jira, Azure DevOps, Tableau ou Power BI.\n\tHabilidade em comunicação e facilitação entre equipes.", Role = MessageType.System});
+            
             isWelcomeMessageSent = true;
         }
 
@@ -112,10 +116,28 @@
             isProcessingMessage = true;
             StateHasChanged();
 
-            Messages.Add(new Message { Text = UserMessage, IsUser = true });
+            Messages.Add(new Message { Text = UserMessage, Role = MessageType.User});
+            MessagesIA.Add(new Message { Text = UserMessage, Role = MessageType.User });
 
-            var resposta = await _OllamaService.ProcessarPergunta(Messages);
-            Messages.Add(new Message { Text = resposta, IsUser = false });
+            var resposta = await _OllamaService.ProcessarPergunta(MessagesIA);
+
+            if (!resposta.Contains("ResultadoFinalOK"))
+            {
+                Messages.Add(new Message { Text = resposta, Role = MessageType.Assistant });
+                MessagesIA.Add(new Message { Text = resposta, Role = MessageType.Assistant });
+            }
+            else
+            {
+                string[] parts = resposta.Split(':');
+                Nota nota = new Nota();
+                nota.Valor = int.Parse(parts[1]);
+
+                user.Nota = nota;
+                
+                DbContext.Users.Update(user);
+                await DbContext.SaveChangesAsync();
+                Navigation.NavigateTo("/resultado");
+            }
 
             UserMessage = string.Empty;
             isProcessingMessage = false;
