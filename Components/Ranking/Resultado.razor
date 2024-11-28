@@ -6,36 +6,154 @@
 
 @inject AppDbContext DbContext
 
-<h3>Lista de Usuários e Notas</h3>
+<style>
+    body {
+        background: #E8EAF6; /* Fundo claro para combinar com o design */
+        font-family: Arial, sans-serif;
+    }
 
-@if (users == null)
-{
-    <p>Carregando...</p>
-}
-else if (!users.Any())
-{
-    <p>Nenhum usuário encontrado.</p>
-}
-else
-{
-    <table class="table">
-        <thead>
-        <tr>
-            <th>Nome</th>
-            <th>Nota</th>
-        </tr>
-        </thead>
-        <tbody>
+    .header {
+        background: #9C27B0; /* Roxo principal */
+        color: white;
+        padding: 2rem 1rem;
+        text-align: center;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+
+    .header h1 {
+        font-size: 24px;
+        margin: 0;
+    }
+
+    .header p {
+        font-size: 18px;
+        margin: 0.5rem 0;
+    }
+
+    .search-bar {
+        margin: 1.5rem auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .search-bar input {
+        border: none;
+        padding: 0.8rem;
+        width: 60%;
+        border-radius: 20px;
+        font-size: 16px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .search-bar button {
+        padding: 0.8rem 1.5rem;
+        background-color: #9C27B0;
+        border: none;
+        color: white;
+        font-size: 16px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+    .recomendacoes {
+        padding: 2rem 1rem;
+    }
+
+    .recomendacoes h2 {
+        font-size: 20px;
+        margin-bottom: 1.5rem;
+        color: #333;
+    }
+
+    .card {
+        background: #C8E6C9; /* Verde claro */
+        border-radius: 20px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        padding: 1rem;
+        margin-bottom: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .card img {
+        width: 80px;
+        height: 80px;
+        border-radius: 10px;
+        background: #8BC34A;
+    }
+
+    .card-content {
+        flex: 1;
+        margin-left: 1rem;
+    }
+
+    .card-content h3 {
+        font-size: 18px;
+        margin: 0;
+        color: #333;
+    }
+
+    .card-content p {
+        font-size: 14px;
+        margin: 0.3rem 0;
+        color: #666;
+    }
+
+    .rating {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #9C27B0;
+        color: white;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+</style>
+
+<div class="header">
+    <h1>Lista de Candidatos e Notas</h1>
+    @* <p>Veja as vagas que se encaixam no seu perfil</p> *@
+    @* <div class="search-bar"> *@
+    @*     <input type="text" placeholder="Pesquisar usuários..." /> *@
+    @*     <button>Buscar</button> *@
+    @* </div> *@
+</div>
+
+<div class="recomendacoes">
+    @* <h2>Recomendações</h2> *@
+
+    @if (users == null)
+    {
+        <p>Carregando...</p>
+    }
+    else if (!users.Any())
+    {
+        <p>Nenhum usuário encontrado.</p>
+    }
+    else
+    {
         @foreach (var user in users)
         {
-            <tr>
-                <td>@user.Nome</td>
-                <td>@(user.Nota?.Valor.ToString() ?? "Sem nota")</td>
-            </tr>
+            <div class="card">
+                @* <img src="https://via.placeholder.com/80" alt="Foto do usuário" /> *@
+                <div class="card-content">
+                    <h3>Nome: @user.Nome</h3>
+                    @* Nota: @(user.Nota?.Valor.ToString() ?? "Sem nota") *@
+                </div>
+                <div class="rating">
+                    @(user.Nota?.Valor.ToString("0.0") ?? "N/A")
+                </div>
+            </div>
         }
-        </tbody>
-    </table>
-}
+    }
+</div>
 
 @code {
     private List<User> users;

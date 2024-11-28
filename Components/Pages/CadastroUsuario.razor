@@ -8,33 +8,95 @@
 @inject NavigationManager Navigation
 
 <style>
-    .message-user {
-        max-width: 70%;
+    body {
+        background: linear-gradient(to bottom, #4A90E2, #50E3C2);
+        color: white;
+        font-family: Arial, sans-serif;
     }
 
-    .message-ai {
-        max-width: 70%;
+    .cadastro-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
     }
 
-    .container-custom {
-        height: 94vh !important;
+    .cadastro-card {
+        background-color: white;
+        padding: 2rem;
+        border-radius: 15px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        width: 90%;
+        max-width: 400px;
     }
 
-    .chat-history {
-        height: 70vh;
-        overflow-y: auto;
+    .cadastro-card h3 {
+        text-align: center;
+        color: #4A90E2;
+        margin-bottom: 1.5rem;
+    }
+
+    .form-control {
+        margin-bottom: 1rem;
+        border: none;
+        border-bottom: 2px solid #4A90E2;
+        border-radius: 0;
+        outline: none;
+        box-shadow: none;
+        padding-left: 0;
+    }
+
+    .form-control:focus {
+        border-color: #50E3C2;
+        box-shadow: none;
+    }
+
+    .btn-cadastrar {
+        background-color: #7E57C2;
+        color: white;
+        border: none;
+        width: 100%;
+        padding: 0.8rem;
+        border-radius: 25px;
+        font-weight: bold;
+    }
+
+    .btn-cadastrar:hover {
+        background-color: #6B48A9;
+    }
+
+    .social-login {
+        display: flex;
+        justify-content: center;
+        margin: 1rem 0;
+    }
+
+    .social-login a {
+        margin: 0 0.5rem;
+        color: #4A90E2;
+        font-size: 1.5rem;
+    }
+
+    .link-login {
+        text-align: center;
+        margin-top: 1rem;
+        color: #4A90E2;
     }
 </style>
 
-<h3>CadastroUsuario</h3>
-
-<div class="container-fluid container-custom">
-    <div class="row h-100">
-        <p>@message</p>
-        <div class="col-lg-4 col-md-12 d-flex flex-column">
-            <input class="form-control mb-2" placeholder="Digite o nome completo do usuário" @bind="fullName">
-            <button class="btn btn-primary w-100" type="button" @onclick="CadastrarUsuario"> Cadastrar </button>
+<div class="cadastro-container">
+    <div class="cadastro-card">
+        <h3>Entrevista com a IA</h3>
+        <input class="form-control" placeholder="Digite o nome completo" @bind="fullName" />
+        <div class="social-login">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
         </div>
+        <button class="btn btn-cadastrar" @onclick="CadastrarUsuario">Seguir</button>
+        @* <div class="link-login"> *@
+        @*     <a href="/login">Entrar com uma conta já existente</a> *@
+        @* </div> *@
     </div>
 </div>
 

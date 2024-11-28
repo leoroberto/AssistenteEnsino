@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net8.0/scopedcss/projectbundle/AssistenteDeEnsino.bundle.scp.css",
-      "PackagePath": "staticwebassets/AssistenteDeEnsino.lsdoqjwvif.bundle.scp.css"
+      "PackagePath": "staticwebassets/AssistenteDeEnsino.bundle.scp.css"
     },
     {
       "Id": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/wwwroot/app.css",
@@ -27,10 +27,6 @@
     {
       "Id": "/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/wwwroot/images/avatar-user.png",
       "PackagePath": "staticwebassets/images/avatar-user.png"
-    },
-    {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.AssistenteDeEnsino.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
-      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj/Debug/net8.0/staticwebassets/msbuild.AssistenteDeEnsino.Microsoft.AspNetCore.StaticWebAssets.props",

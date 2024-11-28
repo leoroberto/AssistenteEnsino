@@ -179,9 +179,6 @@
 /Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net8.0/AssistenteDeEnsino.pdb
 /Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net8.0/AssistenteDeEnsino.genruntimeconfig.cache
 /Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net8.0/ref/AssistenteDeEnsino.dll
-/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/bin/Debug/net8.0/AssistenteDeEnsino.staticwebassets.endpoints.json
-/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net8.0/staticwebassets.build.endpoints.json
-/Users/leonardofarias/RiderProjects/AssistenteDeEnsino/obj/Debug/net8.0/staticwebassets/msbuild.AssistenteDeEnsino.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 /Users/leonardofarias/RiderProjects/AssistenteDeEnsino/bin/Debug/net8.0/Microsoft.AspNetCore.Razor.Language.dll
 /Users/leonardofarias/RiderProjects/AssistenteDeEnsino/bin/Debug/net8.0/Microsoft.Build.dll
 /Users/leonardofarias/RiderProjects/AssistenteDeEnsino/bin/Debug/net8.0/Microsoft.Build.Framework.dll

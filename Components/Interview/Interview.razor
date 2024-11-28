@@ -13,67 +13,147 @@
 @inject NavigationManager Navigation
 
 <style>
+    body {
+        background: linear-gradient(to bottom, #6A95FF, #8CE5C3);
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-custom {
+        width: 90%;
+        max-width: 1200px;
+        background: white;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        height: 90vh;
+    }
+
+    .chat-history {
+        flex-grow: 1;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        padding: 15px;
+        overflow-y: auto;
+        background-color: #F9F9F9;
+    }
+
     .message-user {
         max-width: 70%;
+        background-color: #6A95FF;
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        align-self: flex-end;
     }
 
     .message-ai {
         max-width: 70%;
+        background-color: #E9E9E9;
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        align-self: flex-start;
     }
 
-    .container-custom {
-        height: 94vh !important;
+    .message-row {
+        display: flex;
+        align-items: center;
     }
 
-    .chat-history {
-        height: 70vh;
-        overflow-y: auto;
+    .message-row img {
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        margin: 5px;
+    }
+
+    .input-area {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .form-control {
+        border: none;
+        border-bottom: 2px solid #6A95FF;
+        font-size: 1rem;
+        padding: 10px;
+        outline: none;
+        transition: border-color 0.3s;
+    }
+
+    .form-control:focus {
+        border-color: #4A90E2;
+    }
+
+    .btn-primary {
+        background-color: #6A95FF;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 20px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .btn-primary:hover {
+        background-color: #4A90E2;
+    }
+
+    .btn-primary:disabled {
+        background-color: #cccccc;
+        cursor: not-allowed;
     }
 </style>
 
-<div class="container-fluid container-custom">
-    <div class="row h-100">
-
-        <div class="col-lg-4 col-md-12 d-flex flex-column">
-            <div class="chat-history flex-grow-1 mb-3" style="overflow-y: auto; border: 1px solid #ccc; padding: 10px;">
-                @foreach (var message in Messages)
-                {
-                if (message.Role == MessageType.User)
-                {
-                <div class="d-flex justify-content-end mb-2">
-                    <div class="message-user bg-primary text-white p-2 rounded">
+<div class="container-custom">
+    <div class="chat-history">
+        @foreach (var message in Messages)
+        {
+            if (message.Role == MessageType.User)
+            {
+                <div class="message-row justify-content-end">
+                    <div class="message-user">
                         @((MarkupString)_markdownService.ConvertToHtml(message.Text))
                     </div>
-                    <img src="/images/avatar-user.png" alt="Você" class="rounded-circle ms-2" style="width: 40px; height: 40px;">
+                    <img src="/images/avatar-user.png" alt="Você">
                 </div>
-                }
-                else
-                {
-                <div class="d-flex justify-content-start mb-2">
-                    <img src="/images/avatar-assistente.png" alt="Assistente de Ensino" class="rounded-circle me-2" style="width: 40px; height: 40px;">
-                    <div class="message-ai bg-light p-2 rounded">
+            }
+            else
+            {
+                <div class="message-row justify-content-start">
+                    <img src="/images/avatar-assistente.png" alt="Assistente de Ensino">
+                    <div class="message-ai">
                         @((MarkupString)_markdownService.ConvertToHtml(message.Text))
                     </div>
                 </div>
-                }
-                }
-            </div>
+            }
+        }
+    </div>
 
-            <div>
-                <textarea class="form-control mb-2" placeholder="Escreva sua pergunta da forma mais clara possível." rows="3" @bind="UserMessage" disabled="@isProcessingMessage"></textarea>
-                <button class="btn btn-primary w-100" type="button" @onclick="SendMessage" disabled="@isProcessingMessage">
-                    @if (isProcessingMessage)
-                    {
-                    <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
-                    <span>Processando...</span>
-                    }
-                    else
-                    {
-                    <span>Enviar</span>
-                    }
-                </button>
-            </div>
-        </div>
+    <div class="input-area mt-3">
+        <textarea class="form-control" placeholder="Escreva sua pergunta da forma mais clara possível." rows="3" @bind="UserMessage" disabled="@isProcessingMessage"></textarea>
+        <button class="btn-primary" type="button" @onclick="SendMessage" disabled="@isProcessingMessage">
+            @if (isProcessingMessage)
+            {
+                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                <span>Processando...</span>
+            }
+            else
+            {
+                <span>Enviar</span>
+            }
+        </button>
     </div>
 </div>
 
